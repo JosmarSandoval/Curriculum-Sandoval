@@ -1,0 +1,829 @@
+/* Extra Small devices (portrait tablets and large phones) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+	/*Tamaños y colores de secciones*/
+	.acerca{
+		width: 100vw;
+		height: 75vh;
+		background-color: #0f4c75;
+
+	}
+	.resumen{
+		width: 100vw;
+		height: 70vh;
+		background-color: #318fb5;
+	}
+	.contacto{
+		width: 100vw;
+		height: 120vh;
+		background-color: #4d4c7d;
+	}
+	.gustos{
+		width: 100vw;
+		height: 70vh;
+		background-color: #827397;
+
+	}
+
+	main{
+		margin-top:23%; 
+	}
+
+	.p1 ,.p2, .p3, .p4{
+		width: 87%;	
+		border-radius: 15px; 
+	}
+
+	/*Nav*/
+
+	nav img{
+		width: 11%;
+		top: 12px;
+	}
+	nav .navicon{
+		width: 20%;
+		height: 40%;
+		position: relative;
+		left: 77vw;
+		bottom: 26%;
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+
+	#pdf{
+		width: 100%;
+		position: relative;
+		grid-column: 1/2;
+		
+		
+	}
+
+	#print{
+		width: 100%;
+		position: relative;
+		grid-column: 2/3;
+		
+
+	}
+	#print:hover{
+		transform: scale(1.2);
+	}
+	#pdf:hover{
+		transform: scale(1.2);
+	}
+	.secciones a:hover{
+		transform: scale(1.2);
+	}
+
+	
+	/*Contenido sección 1*/
+	.p1 #puente{
+		width: 100%;
+		top: 10%;
+		
+	}
+
+	.p1 #puente:hover{
+		transform: scale(1.1);
+	}
+	
+	/*Contenido sección 3*/
+	fieldset{
+		border-radius:10px; 
+	}
+	
+	/*Contenido sección 4*/
+
+	.hobbies{
+
+		width: 50%;
+	}
+
+	.imagenes{
+		display: block;
+		width: 35%;
+		height: 70%;
+		position: relative;
+		left: 60%;
+		bottom: 65%;
+	}
+	.imagenes #collage1{
+		width: 100%;
+		border-radius: 100px 0px 100px 0px;
+		-moz-border-radius: 100px 0px 100px 0px;
+		-webkit-border-radius: 100px 0px 100px 0px;
+		border: 0px none #000000;
+		-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	}
+	.imagenes #collage1:hover{
+		transform: scale(1.1);
+	}
+	
+	.imagenes #collage2, #collage3 ,#collage4{
+		display: none;
+	}
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	/*Tamaños y colores de secciones*/
+	.acerca{
+		width: 100vw;
+		height: 95vh;
+		background-color: #ffdecf;
+
+	}
+	.resumen{
+		width: 100vw;
+		height: 70vh;
+		background-color: #ba7967;
+	}
+	.contacto{
+		width: 100vw;
+		height: 130vh;
+		background-color: #5e6f64;
+	}
+	.gustos{
+		width: 100vw;
+		height: 100vh;
+		background-color: #3f4441;
+
+	}
+
+	main{
+		margin-top:16%; 
+	}
+
+	.p1 ,.p2, .p3, .p4{
+		width: 85%;
+		border-radius: 20px; 
+		margin-left:2%;
+	}
+
+	
+
+
+	/*Nav*/
+	
+	nav img{
+		width: 8%;
+	}
+
+	nav h1{
+		width: 45vw;
+
+	}
+
+	nav .navicon{
+		
+		width: 15%;
+		height: 40%;
+		position: relative;
+		left: 81vw;
+		bottom: 10%;
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+
+	#pdf{
+		width: 100%;
+		position: relative;
+		grid-column: 1/2;
+		border-radius: 20%;
+		
+	}
+
+	#print{
+		width: 100%;
+		position: relative;
+		grid-column: 2/3;
+		border-radius: 20%;
+
+	}
+	nav .secciones{
+		height:  30%;
+		margin-top: 4%;
+	}
+	#print:hover{
+		transform: scale(1.2);
+	}
+	#pdf:hover{
+		transform: scale(1.2);
+	}
+	.secciones a:hover{
+		transform: scale(1.2);
+	}
+	/*Contenido sección 1*/
+
+	.p1 p{
+		font-size: 120%;
+	}
+	.p1 .fotos{
+		height: 90%;
+		bottom: 50%;
+	}
+
+	.p1 #puente{
+		width: 75%;
+		top: 35px;
+
+	}
+
+	.p1 #playa{
+		display: block;
+		width: 60%;
+		left: 20%;
+		bottom: 10%; 
+	}
+
+	.p1 #puente:hover{
+		transform: scale(1.2);
+	}
+
+	.p1 #playa:hover{
+		transform: scale(1.1);
+	}
+
+	/*Contenido Sección 2*/
+	.p2  #r1, #r2, #r3{
+		margin-left:10%; 
+	}  
+
+	.p2  #r4, #r5{
+		margin-right:10%; 
+	}  
+	/*contenido sección 3*/
+	.p3 .redes{
+		width: 85%;
+		height: 210px;
+		grid-template-columns: 50% 50% ;
+		grid-template-rows: 50% 50%; 
+		
+
+	}
+
+	.redes #gmail{
+		width: 100%;
+		grid-column: 1/2;
+		grid-row:2/3;  
+		
+
+	}
+	.redes #github{
+		width: 100%;
+		grid-column: 2/3;
+		grid-row:1/2; 
+		
+	}
+	.redes #facebook{
+		width: 100%;
+		grid-column: 1/2;
+		grid-row:1/2; 
+		
+	}
+	.redes #instagram{
+		width: 100%;
+		grid-column: 2/3;
+		grid-row:2/3; 
+		
+	}
+
+	.redes img{
+		position: relative;
+		left: 42%;
+	}
+
+	.redes p{
+		display: block;
+		text-align: center ;
+	}
+	fieldset{
+		bottom: 20px;
+		border-radius: 10px;
+	}
+
+	fieldset p{
+		padding-top: 5px;
+		text-align: right;
+	}
+
+	/*Contenido sección 4*/
+
+	.hobbies{
+
+		width: 30%;
+	}
+
+	.imagenes{
+		display: block;
+		width: 50%;
+		height: 80%;
+		position: relative;
+		left: 45%;
+		bottom: 50%;
+		
+	}
+
+	.imagenes #collage2{
+		width: 100%;
+		border-radius: 0px 200px 0px 200px;
+		-moz-border-radius: 0px 200px 0px 200px;
+		-webkit-border-radius: 0px 200px 0px 200px;
+		border: 0px solid #000000;
+		-webkit-box-shadow: -12px 10px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: -12px 10px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: -12px 10px 5px 0px rgba(0,0,0,0.75);
+	}
+
+	.imagenes #collage2:hover{
+		transform: scale(1.1);
+	}
+
+	.imagenes #collage1, #collage3 ,#collage4{
+		display: none;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	/*Tamaños y colores de secciones*/
+	.acerca{
+		width: 100vw;
+		height: 100vh;
+		background-color: #691a40;
+
+	}
+	.resumen{
+		width: 100vw;
+		height: 80vh;
+		background-color: #9e3668;
+	}
+	.contacto{
+		width: 100vw;
+		height: 150vh;
+		background-color: #f6a9ce;
+	}
+	.gustos{
+		width: 100vw;
+		height: 110vh;
+		background-color: #fde3f0;
+
+	}
+
+	main{
+		margin-top:14%; 
+	}
+
+	.p1 ,.p2, .p3, .p4{
+		width: 85%;
+		border-radius: 20px; 
+		margin-left:2%;
+	}
+
+
+
+	/*Nav*/
+	nav img{
+		width: 7%;
+	}
+
+	nav .navicon{
+		
+		width: 15%;
+		height: 40%;
+		position: relative;
+		left: 81vw;
+		bottom: 10%;
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+
+	#pdf{
+		width: 100%;
+		position: relative;
+		grid-column: 1/2;
+		border-radius: 20%;
+		
+	}
+
+	#print{
+		width: 100%;
+		position: relative;
+		grid-column: 2/3;
+		border-radius: 20%;
+	}
+	nav .secciones{
+		height:  30%;
+		margin-top: 3%;
+	}
+	#print:hover{
+		transform: scale(1.2);
+	}
+	#pdf:hover{
+		transform: scale(1.2);
+	}
+	.secciones a:hover{
+		transform: scale(1.2);
+	}
+
+	/*Contenido sección 1*/
+	.p1 .fotos{
+		 
+		width: 35vw;
+		height: 60vh;
+		left: 53%;
+		bottom: 50%;
+	}
+	.p1 #collage5{
+		display: block;
+		width: 100%;
+		border-radius: 200px 0px 0px 0px;
+		-moz-border-radius: 200px 0px 0px 0px;
+		-webkit-border-radius: 200px 0px 0px 0px;
+		border: 0px solid #000000;
+		-webkit-box-shadow: -9px -8px 5px 2px rgba(0,0,0,0.75);
+		-moz-box-shadow: -9px -8px 5px 2px rgba(0,0,0,0.75);
+		box-shadow: -9px -8px 5px 2px rgba(0,0,0,0.75);
+		border: solid black;
+	}
+
+	.p1 #collage5:hover{
+		transform: scale(1.2);
+	}
+	.p1 p{
+
+		width: 40%;
+		font-size:140%; 
+		text-align: left;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+	.p1 #puente,#playa,#collage6{
+		display: none;
+	}
+
+	/*Contenido sección 2*/
+	.p2 p{
+		font-size: 120%;
+	}
+	.p2  #r1, #r2, #r3{
+		margin-left:10%; 
+	}  
+
+	.p2  #r4, #r5{
+		margin-right:10%; 
+	}  
+
+	/*contenido sección 3*/
+
+	.p3 p{
+		font-size: 120%;
+	}
+
+	.p3 .redes{
+		width: 85%;
+		height: 210px;
+		grid-template-columns: 50% 50% ;
+		grid-template-rows: 50% 50%; 
+
+
+	}
+	.redes #gmail{
+		width: 100%;
+		grid-column: 1/2;
+		grid-row:2/3;  
+
+
+	}
+	.redes #github{
+		width: 100%;
+		grid-column: 2/3;
+		grid-row:1/2; 
+
+	}
+	.redes #facebook{
+		width: 100%;
+		grid-column: 1/2;
+		grid-row:1/2; 
+
+	}
+	.redes #instagram{
+		width: 100%;
+		grid-column: 2/3;
+		grid-row:2/3; 
+
+	}
+
+	.redes img{
+		position: relative;
+		left: 42%;
+	}
+
+	.redes p{
+		display: block;
+		text-align: center ;
+	}
+	fieldset{
+		width: 45%;
+		bottom: 20px;
+		border-radius: 10px;
+	}
+
+	fieldset p{
+		padding-top: 5px;
+		text-align: right;
+	}
+
+	/*Contenido sección 4*/
+	.p4 li{
+		font-size: 120%;
+	}
+	.hobbies{
+
+		width: 30%;
+	}
+
+	.imagenes{
+		display: block;
+		width: 50%;
+		height: 80%;
+		position: relative;
+		left: 45%;
+		bottom: 60%;
+
+	}
+
+	.imagenes #collage3{
+		width: 100%;
+		border-radius: 200px 200px 0px 0px;
+		-moz-border-radius: 200px 200px 0px 0px;
+		-webkit-border-radius: 200px 200px 0px 0px;
+		border: 0px solid #000000;
+		-webkit-box-shadow: 0px -18px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px -18px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px -18px 5px 0px rgba(0,0,0,0.75);
+		
+	}
+	.imagenes #collage3:hover{
+		transform: scale(1.1);
+	}
+
+	.imagenes #collage1,#collage2,#collage4{
+		display: none;
+	}
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	/*Tamaños y colores de secciones*/
+	.acerca{
+		width: 100vw;
+		height: 120vh;
+		background-color: #2e99b0;
+
+	}
+	.resumen{
+		width: 100vw;
+		height: 80vh;
+		background-color: #fcd77f;
+	}
+	.contacto{
+		width: 100vw;
+		height: 150vh;
+		background-color: #ff2e4c;
+	}
+	.gustos{
+		width: 100vw;
+		height: 120vh;
+		background-color: #1e1548;
+
+	}
+
+	main{
+		margin-top:9%; 
+	}
+
+	.p1 ,.p2, .p3, .p4{
+		width: 85%;
+		border-radius: 20px; 
+		margin-left:2%;
+	}
+
+
+
+	/*Nav*/
+	header nav{
+		height: 18vh;	
+	}
+	nav img{
+		width: 5%;
+	}
+
+	nav .navicon{
+		
+		width: 10%;
+		height: 40%;
+		position: relative;
+		left: 82vw;
+		bottom: 10%;
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+
+	#pdf{
+		width: 100%;
+		position: relative;
+		grid-column: 1/2;
+		border-radius: 20%;
+		
+	}
+
+	#print{
+		width: 100%;
+		position: relative;
+		grid-column: 2/3;
+		border-radius: 20%;
+	}
+	nav .secciones{
+		height:  30%;
+		margin-top: 3%;
+	}
+	#print:hover{
+		transform: scale(1.2);
+	}
+	#pdf:hover{
+		transform: scale(1.2);
+	}
+	.secciones a:hover{
+		transform: scale(1.2);
+	}
+
+	/*Contenido sección 1*/
+	.p1 .fotos{
+		
+		width: 40%;
+		height: 65%;
+		left: 55%;
+		bottom:40%;
+	}
+	.p1 #collage6{
+		display: block;
+		width: 90%;
+		border-radius: 10px 200px 10px 10px;
+		-moz-border-radius: 10px 200px 10px 10px;
+		-webkit-border-radius: 10px 200px 10px 10px;
+		border: 0px solid #000000;
+		-webkit-box-shadow: 13px -12px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 13px -12px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 13px -12px 5px 0px rgba(0,0,0,0.75);
+		border: solid black;
+	}
+	.p1 #collage6:hover{
+		transform: scale(1.2);
+	}
+	.p1 p{
+
+		width: 35%;
+		font-size:150%; 
+		text-align: left;
+		margin-left: 8%;
+		margin-top: 20px;
+	}
+	.p1 #puente,#playa,#collage5{
+		display: none;
+	}
+
+	/*Contenido sección 2*/
+	.p2 p{
+		font-size: 120%;
+	}
+
+	.p2 #r1, #r2, #r3, #r4, #r5{
+		width: 90%;
+	}     
+
+	.p2  #r1, #r2, #r3{
+		margin-left:10%; 
+	}     
+
+
+	/*contenido sección 3*/
+
+	.p3 p{
+		font-size: 120%;
+	}
+
+	.p3 .redes{
+
+		width: 85%;
+		height: 210px;
+		grid-template-columns: 50% 50% ;
+		grid-template-rows: 50% 50%; 
+
+
+	}
+	.redes #gmail{
+
+		width: 100%;
+		grid-column: 1/2;
+		grid-row:2/3;  
+
+
+	}
+	.redes #github{
+		width: 100%;
+		grid-column: 2/3;
+		grid-row:1/2; 
+
+	}
+	.redes #facebook{
+		width: 100%;
+		grid-column: 1/2;
+		grid-row:1/2; 
+
+	}
+	.redes #instagram{
+		width: 100%;
+		grid-column: 2/3;
+		grid-row:2/3; 
+
+	}
+
+	.redes img{
+		position: relative;
+		left: 45%;
+	}
+
+	.redes p{
+		display: block;
+		text-align: center ;
+	}
+	fieldset{
+		width: 35%;
+		bottom: 20px;
+		left: 35%; 
+		border-radius: 10px;
+	}
+
+	fieldset p{
+		padding-top: 5px;
+		text-align: right;
+	}
+
+	/*Contenido sección 4*/
+	.p4 li{
+		font-size: 120%;
+	}
+	.hobbies{
+
+		width: 30%;
+	}
+
+	.imagenes{
+		
+		display: block;
+		width: 50%;
+		height: 80%;
+		position: relative;
+		left: 45%;
+		bottom: 53%;
+
+	}
+
+	.imagenes #collage4{
+		width: 85%;
+		border-radius: 20px;
+		-webkit-box-shadow: -1px 7px 5px 17px rgba(0,0,0,0.75);
+		-moz-box-shadow: -1px 7px 5px 17px rgba(0,0,0,0.75);
+		box-shadow: -1px 7px 5px 17px rgba(0,0,0,0.75);
+
+	}
+
+	.imagenes #collage4:hover{
+		transform: scale(1.1);
+	}
+	.imagenes #collage1,#collage2,#collage3{
+		display: none;
+	}
+}
+
+
+
+	/*Orientación horizontal*/
+	@media (orientation:landscape){
+
+	}
+
+	/*orientación vertical */
+	@media (orientation:portrait){
+
+	}

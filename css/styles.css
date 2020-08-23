@@ -1,0 +1,412 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: black
+}
+header nav{
+	width: 100vw;
+	height: 25vh;
+	position: fixed;
+}
+
+nav{
+	width: 100vw;
+	height: 20vh;
+	background-color: #222831;
+	top:0;		
+	z-index: 1;	
+
+}
+
+nav img{
+	width: 13%;
+	position: absolute;
+	top: 10%;
+	left: 7%;
+	border-radius: 50%; 
+}
+
+nav h1{
+	
+	width: 40vw;
+	font-family: 'Kanit', sans-serif;
+	color: white;
+	text-align: center;
+	position: relative;
+	left: 30%;
+	top: 20%;
+	
+}
+
+nav .navicon{
+		width: 20%;
+		height: 40%;
+		position: relative;
+		left: 75vw;
+		bottom: 20%;
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+
+#pdf{
+	width: 100%;
+	position: relative;
+	grid-column: 1/2;
+	border-radius: 20%;
+	
+}
+
+#print{
+	width: 100%;
+	position: relative;
+	grid-column: 2/3;
+	border-radius: 20%;
+
+}
+
+nav .secciones{
+	width: 100%;
+	height: 8vw;
+	background-color:#5c636e;
+	display: grid;
+	grid-template-columns: 25%;
+	position: relative;
+	bottom:  9%;
+
+}
+
+
+#s{
+	border-right:  solid thin black;
+	text-align: center;
+	grid-column:1/2; 
+	font-family: 'Archivo Black', sans-serif;
+}
+
+#f{
+	border-right:  solid thin black;
+	text-align: center;
+	grid-column : 2/3;
+	font-family: 'Archivo Black', sans-serif;
+}
+#c{
+	border-right:  solid thin black;
+	text-align: center;
+	grid-column : 3/4;
+	font-family: 'Archivo Black', sans-serif;
+}
+#m{
+	
+	text-align: center;
+	grid-column : 4/5;
+	font-family: 'Archivo Black', sans-serif;
+}
+
+
+
+
+main{
+	margin-top:29%; 
+}
+
+footer{
+	width: 100vw;
+	height: 15vh;
+	background-color: #393e46; 	
+}
+ h2{
+ 	padding-top: 2%;
+ 	font-family: 'Lobster', cursive;
+ }
+/**sección 1*/
+.acerca{
+
+	width: 100vw;
+	height: 70vh;
+	background-color: #f9d56e;
+
+}
+.p1{
+
+	width: 90%;
+	height: 80%;
+	background-color: #f3f9fb; 
+	position: relative;
+	left: 4%;
+	top: 10%;
+	border-radius: 10%;
+	text-align: center; 
+	font-family: 'Bree Serif', serif;
+	-webkit-box-shadow: 10px 11px 7px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 11px 7px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 11px 7px 0px rgba(0,0,0,0.75);
+
+}
+.p1 p{
+
+	width: 49%;
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.p1 .fotos{
+	
+	width: 45%;
+	height: 80%;
+	position: relative;
+	bottom: 60%;
+	left: 53%;
+}
+
+.p1 #puente{
+	border: solid black;
+	width: 100%;
+	border-radius: 50%;
+	position: relative;
+	-webkit-box-shadow: 10px 10px 23px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 23px 3px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 23px 3px rgba(0,0,0,0.75);
+
+}
+
+.p1 #playa{
+	display: none;
+	border: solid black;
+	border-radius: 50%;
+	position: relative;
+	-webkit-box-shadow: 10px 10px 23px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 23px 3px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 23px 3px rgba(0,0,0,0.75);
+}
+
+.p1 #tren{
+	display: none;
+	border: solid black;
+	border-radius: 50%;
+	position: relative;
+	-webkit-box-shadow: 10px 10px 23px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 23px 3px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 23px 3px rgba(0,0,0,0.75);
+}
+.p1 #collage5,#collage6{
+	display: none;
+}
+
+/*Contenido sección 2*/
+.resumen{
+
+	width: 100vw;
+	height: 70vh;
+	background-color: #f3ecc2;
+}
+
+.p2{
+	width: 90%;
+	height: 80%;
+	background-color: #f3f9fb; 
+	position: relative;
+	left: 4%;
+	top: 10%;
+	border-radius: 10%;
+	text-align: center; 
+	font-family: 'Bree Serif', serif;
+	-webkit-box-shadow: 10px 11px 7px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 11px 7px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 11px 7px 0px rgba(0,0,0,0.75);
+	display: grid;
+	grid-template-columns: repeat(2,50%);
+	grid-template-rows: repeat(4,25%);
+	 
+
+}
+
+.p2 h2{
+	
+	transform: translateX(50%);
+}
+.p2 #r1 {
+	text-align: left;
+	grid-column: 1/2;
+	grid-row: 2/3;
+	padding-left: 20px;
+
+}
+
+.p2 #r2 {
+	text-align: left;
+	grid-column: 1/2;
+	grid-row: 3/4;
+	padding-left: 20px;
+
+}
+
+.p2 #r3 {
+	text-align: left;
+	grid-column: 1/2;
+	grid-row: 4/5; 
+	padding-left: 20px;
+}
+
+.p2 #r4 {
+	text-align: left;
+	grid-column: 2/3;
+	grid-row: 2/3;
+	padding-left: 10px;
+	padding-right:  15px;
+	
+}
+
+.p2 #r5 {
+	text-align: left;
+	grid-column: 2/3;	
+	grid-row: 3/4;
+	padding-left: 10px;
+	padding-right:  10px;
+	padding-top: 30px;
+}
+
+/*Sección 3*/
+.contacto{
+	width: 100vw;
+	height: 120vh;
+	background-color: #14b1ab;
+}
+
+.p3{
+	width: 90%;
+	height: 80%;
+	background-color: #f3f9fb;
+	position: relative;
+	left: 4%;
+	top: 10%;
+	border-radius: 5%;
+	text-align: center; 
+	font-family: 'Bree Serif', serif;
+	-webkit-box-shadow: 10px 11px 7px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 11px 7px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 11px 7px 0px rgba(0,0,0,0.75);
+
+}
+
+fieldset{
+	width: 50%;
+	position: relative;
+	left: 25%;
+	top: 45%;
+	padding-bottom: 15px;
+	border-radius: 10%;
+}
+
+fieldset p{
+	width: 80%;
+	margin: auto;
+}
+
+ #enviar{
+ 	margin-top: 10px;
+ }
+
+.info{
+	
+	width: 100%;
+	text-align: left;
+	
+	margin-left: 1%;
+	padding: 3px;
+}
+.info p{
+	margin:5%; 
+}
+
+.p3 .redes{
+		width: 80%;
+		height: 80px;
+		margin: auto; 
+		display: grid;
+		grid-template-columns: 25% 25% 25% 25%; 
+		align-content: center;
+
+
+
+}
+
+.redes #gmail {
+	width: 70%;
+	grid-column: 1/2;
+	position: relative;
+	bottom:100%;
+	margin-left: 10px;
+}
+
+.redes #facebook{
+	width: 70%;
+	grid-column: 3/4;
+	position: relative;
+	top :100%;
+	margin-left: 10px;
+
+
+}
+.redes #instagram{
+	width: 70%;
+	grid-column: 4/5;
+	margin-left: 10px;
+
+
+}
+.redes #github{
+	width: 70%;
+	grid-column: 2/3;
+	margin-left: 10px;
+}
+
+.redes p{
+	display: none;
+}
+
+/*sección 4*/
+.gustos{
+	width: 100vw;
+	height: 70vh;
+	background-color: #86c4ba;
+
+}
+
+.p4{
+	width: 90%;
+	height: 80%;
+	background-color: #f3f9fb;
+	position: relative;
+	left: 4%;
+	top: 10%;
+	border-radius: 10%;
+	text-align: center; 
+	font-family: 'Bree Serif', serif;
+	-webkit-box-shadow: 10px 11px 7px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 11px 7px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 11px 7px 0px rgba(0,0,0,0.75);
+}
+
+
+.hobbies {
+	
+	width: 70%;
+	margin-left: 10%;
+
+	margin-top: 10%;
+
+}
+
+.hobbies li{
+	text-align: left;
+
+}
+
+.imagenes{
+	display: none;
+}
